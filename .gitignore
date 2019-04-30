@@ -1,5 +1,5 @@
 # Ignore Dependecies
 
 node_modules
-.nyc.output
+.nyc_output
 

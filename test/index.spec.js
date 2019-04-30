@@ -9,25 +9,28 @@ describe("validator", () => {
   it(" O CPF é válido", () => {
     expect(validator.cpfValidator("37355518828")).to.equal(true);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
+    expect(validator.cpfValidator("71650632932")).to.equal(true);
+  });
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("00000000000")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("99999999999")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("vxvxvxvxvxv")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("vx@#$%¨&*()")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("qvxxxxxqweq")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("11111111111")).to.equal(false);
   });
-  it(" O CPF é válido", () => {
+  it("O CPF não é válido", () => {
     expect(validator.cpfValidator("123456789")).to.equal(false);
   });
 });
