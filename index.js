@@ -42,5 +42,3 @@ const cpfValidator = (cpfComplete) => {
 
 module.exports.cpfValidator = cpfValidator;
 
-// const cpfValidator = require("./index);
-

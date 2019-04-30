@@ -1,6 +1,6 @@
 const chai = require("chai");
 const expect = chai.expect;
-const validator = require("../lib/index.js");
+const validator = require("../index");
 
 describe("validator", () => {
   it("The CPF is valid: '11144477735'", () => {
