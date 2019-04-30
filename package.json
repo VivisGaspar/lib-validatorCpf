@@ -1,10 +1,12 @@
 {
   "name": "lib-validatorcpf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta biblioteca tem o objetivo de implementar um validador de CPF para uso em aplicações web. Na **versão 1.0.0** possibilita verificar os números de CPF fazendo a validação dos dígitos retornando **true** ou **false** de acordo com cada caso.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "format": "prettier",
+    "eslint": "./node_modules/.bin/eslint index.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +29,9 @@
     "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.0.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
