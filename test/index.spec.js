@@ -6,6 +6,9 @@ describe("validator", () => {
   it("The CPF is valid: '11144477735'", () => {
     expect(validator.cpfValidator("11144477735")).to.equal(true);
   });
+  it("The CPF is not valid: ''", () => {
+    expect(validator.cpfValidator()).to.equal(false);
+  });
   it("The CPF is valid: '88601010008'", () => {
     expect(validator.cpfValidator("88601010008")).to.equal(true);
   });
