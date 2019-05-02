@@ -2,17 +2,17 @@
 
 ## Sobre a biblioteca
 
-Esta biblioteca tem o objetivo de implementar um validador de CPF para uso em aplicações web. Na **versão 1.0.0** possibilita verificar os números de CPF fazendo a validação dos dígitos retornando **true** ou **false** de acordo com cada caso.
+Esta biblioteca tem como objetivo implementar um validador de CPF para uso em aplicações web. É possível verificar o número do CPF retornando **true** ou **false** de acordo com o valor verificado.
 
 ## Como instalar
 
-```shell
- $ npm install cpfvalidator-vg
+```sh
+npm install cpfvalidator-vg
 ```
 
 ## Como utilizar
 
-```node
+```javascript
 > const cpfValidatorVG = require("cpfvalidator-vg");
 > cpfValidatorVG.cpfValidator("11144477735")
 > // returns "true"
