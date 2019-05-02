@@ -8,7 +8,7 @@ Esta biblioteca tem o objetivo de implementar um validador de CPF para uso em ap
 
 ```shell
 
-$  npm install lib-validatorcpf
+$  npm install cpfvalidator-vg
 
 ```
 
@@ -16,11 +16,11 @@ $  npm install lib-validatorcpf
 
 ```node
 
-> const cpfvalidator = require("lib-validatorcpf");
-> cpfValidator.lib-validatorcpf("11144477735")
+> const cpfvalidator = require("cpfvalidator-vg");
+> cpfValidator.cpfvalidator-vg("11144477735")
 > // returns "true"
 
-> cpfValidator.lib-validatorcpf("99999999999")
+> cpfValidator.cpfvalidator-vg("99999999999")
 > // returns "false"
 
 
