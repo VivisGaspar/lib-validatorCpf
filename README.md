@@ -7,21 +7,16 @@ Esta biblioteca tem o objetivo de implementar um validador de CPF para uso em ap
 ## Como instalar
 
 ```shell
-
-$  npm install cpfvalidator-vg
-
+ $ npm install cpfvalidator-vg
 ```
 
 ## Como utilizar
 
 ```node
-
-> const cpfvalidator = require("cpfvalidator-vg");
-> cpfValidator.cpfvalidator-vg("11144477735")
+> const cpfValidatorVG = require("cpfvalidator-vg");
+> cpfValidatorVG.cpfValidator("11144477735")
 > // returns "true"
 
-> cpfValidator.cpfvalidator-vg("99999999999")
+> cpfValidatorVG.cpfValidator("99999999999")
 > // returns "false"
-
-
 ```
