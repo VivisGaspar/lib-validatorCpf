@@ -13,10 +13,10 @@ npm install cpfvalidator-vg
 ## Como utilizar
 
 ```node
-> const cpfValidator = require("cpfvalidator-vg");
-> cpfValidator.cpfValidator("11144477735")
+> const cpfVerificator= require("cpfvalidator-vg");
+> cpfVerificator.cpfValidator("11144477735")
 > // returns "true"
 
-> cpfValidatorVG.cpfValidator("99999999999")
+> cpfVerificator.cpfValidator("99999999999")
 > // returns "false"
 ```
